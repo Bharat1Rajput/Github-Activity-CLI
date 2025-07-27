@@ -21,7 +21,7 @@ A simple Command Line Interface (CLI) tool to fetch and display the recent publi
    git clone https://github.com/Bharat1Rajput/Github-Activity-CLI.git
    cd Github-Activity-CLI
    ```
-   *** You can also add the package.json file - npm init -y ***
+   **You can also add the package.json file use - npm init -y**
    ```
    {
   "name": "github-activity",
@@ -43,7 +43,7 @@ A simple Command Line Interface (CLI) tool to fetch and display the recent publi
 npm start <username>
 ```
 
-###Example
+### Example
 ```
  D:\Github-Activity> npm start Bharat1Rajput
 
@@ -59,7 +59,7 @@ npm start <username>
 - 🍴 Forked freeCodeCamp/boilerplate-project-headerparser
 ```
 
-##📄 Code Structure
+## 📄 Code Structure
 https module is used to send a GET request to the GitHub API.
 
 process.argv is used to read command-line arguments.
@@ -68,7 +68,7 @@ JSON response is parsed and displayed.
 
 Graceful error handling is done for API failures or incorrect usernames.
 
-##🧪 Testing
+## 🧪 Testing
 Try with different usernames, including:
 
 Valid: torvalds, octocat
@@ -84,10 +84,10 @@ Cache response to reduce GitHub API rate limits.
 
 Export activity to a .txt or .json file.
 
-##❗ Notes
+## ❗ Notes
 GitHub API requires a User-Agent header; we’ve set a custom one in the request.
 
 No GitHub authentication used — this uses public endpoints.
 
-##📜 License
+## 📜 License
 MIT License © 2025 Bharat Singh Rajput
